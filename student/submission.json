@@ -3,8 +3,6 @@
   "readiness": {
     "ready": false,
     "missing": [
-      "assumptions",
-      "model",
       "prediction",
       "verification",
       "claim",
@@ -15,7 +13,7 @@
   },
   "record": {
     "id": "27d23916-f8af-4d55-8c98-4d97c637a288",
-    "revision": "45",
+    "revision": "111",
     "model": {
       "moduleId": "controls",
       "modelId": "week07-student-model",
@@ -47,7 +45,7 @@
       "assumptions": {
         "suppliedBy": "student",
         "locked": false,
-        "text": ""
+        "text": "Planar motion, fixed reference, linear control effectiveness, and no trim/damping. These may fail with 3D motion, nonlinear control response, or significant trim/damping effects."
       },
       "inputs": {
         "suppliedBy": "instructor",
@@ -57,7 +55,7 @@
       "model": {
         "suppliedBy": "student",
         "locked": false,
-        "text": ""
+        "text": "M_demand + M_competing = I_y × alpha_target\nDynamic pressure: q = 1/2 × rho × V²\nCoefficient: Delta Cm = Cm_delta_e × delta_e\nMoment: M = q × S × c × Delta Cm\nConvert: delta_e = delta_display × pi/180\n\nSupplied: rho, V, S, c, Cm_delta_e, I_y, alpha_target, M_competing.\nUnknown: delta_e."
       },
       "prediction": {
         "suppliedBy": "student",

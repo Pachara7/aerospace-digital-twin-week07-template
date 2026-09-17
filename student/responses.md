@@ -8,11 +8,11 @@ Answers and recorded model results from `submission.json`. This document does no
 
 - Record ID: 27d23916-f8af-4d55-8c98-4d97c637a288
 
-- Record revision: 45
+- Record revision: 111
 
 - Model hash: fnv1a-adee3cf8
 
-- Readiness: Marked incomplete or not ready; missing: assumptions, model, prediction, verification, claim, reflection, aiUse, execution
+- Readiness: Marked incomplete or not ready; missing: prediction, verification, claim, reflection, aiUse, execution
 
 ## Supplied setup (instructor supplied)
 
@@ -42,13 +42,24 @@ Because if tail goes down nose goes up
 **Prompt:** Explain one supplied assumption and what could invalidate it: planar motion, fixed reference, local linear effectiveness, no trim or damping.
 
 **Student response:**
-_Missing — no response supplied._
+```
+Planar motion, fixed reference, linear control effectiveness, and no trim/damping. These may fail with 3D motion, nonlinear control response, or significant trim/damping effects.
+```
 
 ### model
 **Prompt:** Write your demand, dynamic-pressure, coefficient and moment equations. Identify which quantities are supplied and which are unknown.
 
 **Student response:**
-_Missing — no response supplied._
+```
+M_demand + M_competing = I_y × alpha_target
+Dynamic pressure: q = 1/2 × rho × V²
+Coefficient: Delta Cm = Cm_delta_e × delta_e
+Moment: M = q × S × c × Delta Cm
+Convert: delta_e = delta_display × pi/180
+
+Supplied: rho, V, S, c, Cm_delta_e, I_y, alpha_target, M_competing.
+Unknown: delta_e.
+```
 
 ### prediction
 **Prompt:** Before running your own implementation, predict the sign of its elevator moment and the effect of halving airspeed. Explain the competing moment.
