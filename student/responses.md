@@ -8,11 +8,11 @@ Answers and recorded model results from `submission.json`. This document does no
 
 - Record ID: 27d23916-f8af-4d55-8c98-4d97c637a288
 
-- Record revision: 111
+- Record revision: 188
 
 - Model hash: fnv1a-adee3cf8
 
-- Readiness: Marked incomplete or not ready; missing: prediction, verification, claim, reflection, aiUse, execution
+- Readiness: Marked incomplete or not ready; missing: verification, claim, reflection, aiUse, execution
 
 ## Supplied setup (instructor supplied)
 
@@ -65,7 +65,9 @@ Unknown: delta_e.
 **Prompt:** Before running your own implementation, predict the sign of its elevator moment and the effect of halving airspeed. Explain the competing moment.
 
 **Student response:**
-_Missing — no response supplied._
+```
+Positive because it’s nose up and halving the airspeed makes 1/4 moment
+```
 
 ### verification
 **Prompt:** Show one independent hand calculation with units. Compare it with your model, and explain a sign, unit, or limiting-case check.
