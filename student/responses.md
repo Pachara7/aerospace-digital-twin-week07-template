@@ -8,11 +8,11 @@ Answers and recorded model results from `submission.json`. This document does no
 
 - Record ID: 27d23916-f8af-4d55-8c98-4d97c637a288
 
-- Record revision: 1
+- Record revision: 45
 
 - Model hash: fnv1a-adee3cf8
 
-- Readiness: Marked incomplete or not ready; missing: physics, assumptions, model, prediction, verification, claim, reflection, aiUse, execution
+- Readiness: Marked incomplete or not ready; missing: assumptions, model, prediction, verification, claim, reflection, aiUse, execution
 
 ## Supplied setup (instructor supplied)
 
@@ -34,7 +34,9 @@ Iy=5000 kg·m²; target=+0.12 rad/s²; competing=-750 N-m; density=1.225 kg/m³;
 **Prompt:** Explain why a downward force aft of the CG gives a positive nose-up moment.
 
 **Student response:**
-_Missing — no response supplied._
+```
+Because if tail goes down nose goes up
+```
 
 ### assumptions
 **Prompt:** Explain one supplied assumption and what could invalidate it: planar motion, fixed reference, local linear effectiveness, no trim or damping.

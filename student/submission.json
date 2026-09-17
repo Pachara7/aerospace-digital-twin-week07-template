@@ -3,7 +3,6 @@
   "readiness": {
     "ready": false,
     "missing": [
-      "physics",
       "assumptions",
       "model",
       "prediction",
@@ -16,7 +15,7 @@
   },
   "record": {
     "id": "27d23916-f8af-4d55-8c98-4d97c637a288",
-    "revision": "1",
+    "revision": "45",
     "model": {
       "moduleId": "controls",
       "modelId": "week07-student-model",
@@ -43,7 +42,7 @@
       "physics": {
         "suppliedBy": "student",
         "locked": false,
-        "text": ""
+        "text": "Because if tail goes down nose goes up"
       },
       "assumptions": {
         "suppliedBy": "student",
