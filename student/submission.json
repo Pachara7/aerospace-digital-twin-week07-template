@@ -12,7 +12,7 @@
   },
   "record": {
     "id": "27d23916-f8af-4d55-8c98-4d97c637a288",
-    "revision": "188",
+    "revision": "207",
     "model": {
       "moduleId": "controls",
       "modelId": "week07-student-model",
@@ -59,7 +59,7 @@
       "prediction": {
         "suppliedBy": "student",
         "locked": false,
-        "text": "Positive because it’s nose up and halving the airspeed makes 1/4 moment"
+        "text": "Elevator moment is Positive because it’s nose up and halving the airspeed makes 1/4 moment"
       },
       "execution": {
         "suppliedBy": "automatic",

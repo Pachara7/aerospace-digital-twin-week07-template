@@ -8,7 +8,7 @@ Answers and recorded model results from `submission.json`. This document does no
 
 - Record ID: 27d23916-f8af-4d55-8c98-4d97c637a288
 
-- Record revision: 188
+- Record revision: 207
 
 - Model hash: fnv1a-adee3cf8
 
@@ -66,7 +66,7 @@ Unknown: delta_e.
 
 **Student response:**
 ```
-Positive because it’s nose up and halving the airspeed makes 1/4 moment
+Elevator moment is Positive because it’s nose up and halving the airspeed makes 1/4 moment
 ```
 
 ### verification
